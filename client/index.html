@@ -63,9 +63,9 @@
 </html>
 <script src="./js/app/models/Negociacao.js"></script>
 <script>
-    let neg = new Negociacao(new Date(), 1, 700);
-    console.log('Class', neg);
-    console.log('Volume', neg.obtemVolume());
-
-    
+    let n = new Negociacao(new Date(), 1, 700);
+    console.log('Volume:', n.getVolume());
+    console.log('Data:', n.getData());
+    console.log('Quantidade:', n.getQuantidade());
+    console.log('Valor:', n.getValor());
 </script>
